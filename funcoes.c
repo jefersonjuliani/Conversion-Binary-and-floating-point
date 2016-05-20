@@ -49,7 +49,7 @@ void mantissa(float y,struct fb *x){
 }
 
 void convert(int num){
-    if (num/2==1 || 0)
+    if (num/2==1 || num/2==0)
         printf("%d",num/2);
     else
         convert(num/2);
